@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Client Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="password"],
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .form-group input[type="submit"] {
+      width: 100%;
+      padding: 8px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .form-group input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Client Registration Form</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" required>
+      </div>
+      <div class="form-group">
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" name="job-title" required>
+      </div>
+      <div class="form-group">
+        <label for="industry">Industry:</label>
+        <input type="text" id="industry" name="industry" required>
+      </div>
+      <div class="form-group">
+        <label for="website">Website:</label>
+        <input type="text" id="website" name="website">
+      </div>
+      <div class="form-group">
+        <label for="interests">Interests:</label>
+        <textarea id="interests" name="interests" rows="4"></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Register">
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2023  🆂🅷🅰🅳🅾🆆🅲🅾🅳🅴 🆃🅴🅲🅷🅽🅾🅻🅾🅶🅸🅴🆂. All rights reserved.</p>
+  </footer>
+</body>
+</html>
